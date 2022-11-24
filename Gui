@@ -1,0 +1,37 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Shezan's Gui", "Synapse")
+local Tab = Window:NewTab("EveryScript")
+local Section = Tab:NewSection("Scripts ↓")
+
+Section:NewButton("Universal Silent Aim", "Silent aim dummy", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/UniversalSilentAim.lua", true))()
+end)
+
+Section:NewButton("Auto Clicker", "Click V to enable/disable", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/auto%20clicker.lua", true))()
+end)
+
+Section:NewButton("Mukuro Hub - Bloxfruits", "Autofarm .. ect", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/BloxMukuroHub.lua", true))()
+end)
+
+Section:NewButton("HoHo Hub - Bloxfruits", "Autofarm .. ect", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/BloxHoHoHub.lua", true))()
+end)
+
+Section:NewButton("Sword Reach", "Most games sword reach OP af", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/SwordReach.lua", true))()
+end)
+
+Section:NewButton("Inf Yield", "Very useful for all games", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/InfYeild.lua", true))()
+end)
+
+Section:NewButton("Owl hub", "Very useful aimbot for all games", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+local Section = Tab:NewSection("GUI Toggle")
+Section:NewKeybind("Close and open GUI", "Close and open the GUI", Enum.KeyCode.P, function()
+	Library:ToggleUI()
+end)
