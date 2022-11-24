@@ -31,6 +31,10 @@ Section:NewButton("Box esp", "Very useful aimbot for all games", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Boxesp.lua", true))()
 end)
 
+Section:NewButton("Name esp", "Very useful aimbot for all games", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/NameEsp.lua", true))()
+end)
+
 local Section = Tab:NewSection("GUI Toggle")
 Section:NewKeybind("Close and open GUI", "Close and open the GUI", Enum.KeyCode.P, function()
 	Library:ToggleUI()
