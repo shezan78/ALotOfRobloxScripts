@@ -35,6 +35,10 @@ Section:NewButton("Highlight esp Off", "Very useful aimbot for all games", funct
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/HighLightEspOff.lua", true))()
 end)
 
+Section:NewButton("Anti Afk script", "Very useful When going afk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/RobloxAntiAfk.lua", true))()
+end)
+
 local Section = Tab:NewSection("GUI Toggle")
 Section:NewKeybind("Close and open GUI", "Close and open the GUI", Enum.KeyCode.P, function()
 	Library:ToggleUI()
