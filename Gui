@@ -7,6 +7,10 @@ Section:NewButton("Universal Silent Aim", "Silent aim dummy", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/UniversalSilentAim.lua", true))()
 end)
 
+Section:NewButton("Universal Aimbot", "bruh! its aimBOT dummy", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/UniversalAimbot.lua", true))()
+end)
+
 Section:NewButton("Auto Clicker", "Click V to enable/disable", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/auto%20clicker.lua", true))()
 end)
