@@ -1,4 +1,4 @@
-local hotkey = "q" -- toggle key
+local hotkey = "p" -- toggle key
 local mouse = game.Players.LocalPlayer:GetMouse()
 
 
@@ -12,7 +12,7 @@ end
 end
 end)
 
-loadstring(game:HttpGet("https://pastebin.com/raw/zVeEZTs6",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/asdasdsdignore.lua",true))()
 DaHoodSettings.Prediction = 0.169 -- lower for lower ping and higher for higher ping.
 Aiming.FOV = 9 -- size of silent aim
 Aiming.FOVSides = 25 -- how smooth silent aim circle is
