@@ -47,6 +47,10 @@ Section:NewButton("Legends Of Speed GUI", "Autofarm", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/LegendsOfSpeedGUI.lua", true))()
 end)
 
+Section:NewButton("Treasurehuntingsim", "Autofarm", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/TreasureHuntingSim.lua", true))()
+end)
+
 local Section = Tab:NewSection("GUI Toggle")
 Section:NewKeybind("Close and open GUI", "Close and open the GUI", Enum.KeyCode.P, function()
 	Library:ToggleUI()
