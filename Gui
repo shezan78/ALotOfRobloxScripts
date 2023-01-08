@@ -1,57 +1,95 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Shezan's Gui", "Synapse")
-local Tab = Window:NewTab("EveryScript")
-local Section = Tab:NewSection("Scripts ↓")
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Shezans GUI", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-Section:NewButton("Universal Silent Aim", "Silent aim dummy", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/UniversalSilentAim.lua", true))()
-end)
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
 
-Section:NewButton("Universal Aimbot", "bruh! its aimBOT dummy", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/UniversalAimbot.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Universal Silent aim",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/UniversalSilentAim.lua", true))()
+  	end    
+})
 
-Section:NewButton("Auto Clicker", "Click V to enable/disable", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/auto%20clicker.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Universal Aimbot",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/UniversalAimbot.lua", true))()
+  	end    
+})
 
-Section:NewButton("Mukuro Hub - Bloxfruits", "Autofarm .. ect", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/BloxMukuroHub.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Autoclicker",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/auto%20clicker.lua", true))()
+  	end    
+})
 
-Section:NewButton("HoHo Hub - Bloxfruits", "Autofarm .. ect", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/BloxHoHoHub.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Bloxfruits Mukuro Hub",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/BloxMukuroHub.lua", true))()
+  	end    
+})
 
-Section:NewButton("Sword Reach", "Most games sword reach OP af", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/SwordReach.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Bloxfruits HoHoHub",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/BloxHoHoHub.lua", true))()
+  	end    
+})
 
-Section:NewButton("Inf Yield", "Very useful for all games", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/InfYeild.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Sword Reach",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/SwordReach.lua", true))()
+  	end    
+})
 
-Section:NewButton("Highlight esp On", "Very useful aimbot for all games", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/HighLightEspOn.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Inf Yeild",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/InfYeild.lua", true))()
+  	end    
+})
 
-Section:NewButton("Highlight esp Off", "Very useful aimbot for all games", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/HighLightEspOff.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Highlight ESP on",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/HighLightEspOn.lua", true))()
+  	end    
+})
 
-Section:NewButton("Anti Afk script", "Very useful When going afk", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/RobloxAntiAfk.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Highlight ESP off",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/HighLightEspOff.lua", true))()
+  	end    
+})
 
-Section:NewButton("Legends Of Speed GUI", "Autofarm", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/LegendsOfSpeedGUI.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Anti AFK scripts",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/RobloxAntiAfk.lua", true))()
+  	end    
+})
 
-Section:NewButton("Treasurehuntingsim", "Autofarm", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/TreasureHuntingSim.lua", true))()
-end)
+Tab:AddButton({
+	Name = "Legends Of Speed GUI",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/LegendsOfSpeedGUI.lua", true))()
+  	end    
+})
 
-local Section = Tab:NewSection("GUI Toggle")
-Section:NewKeybind("Close and open GUI", "Close and open the GUI", Enum.KeyCode.P, function()
-	Library:ToggleUI()
-end)
+Tab:AddButton({
+	Name = "Treasure Hunting Sim GUI",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/TreasureHuntingSim.lua", true))()
+  	end    
+})
