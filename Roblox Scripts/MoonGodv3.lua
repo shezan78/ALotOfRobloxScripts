@@ -1,5 +1,5 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
-local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/ihasdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh.lua"))()
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/asdaihsdugyhkasduytgasuhkgdasudghaugsdutgasdugasdutgasyutgdasyftgdytuasdtyugfasyugftdautsgdytgujfasdytujastyujgdaytjsfdytasdyjtfasytfjdaystfjdytfasdtfasyftjdyjftasdyjftasfdtasftdayftsdyftasdyftasyftdasftjdyjfatsd.lua"))()
 NotifyLib.prompt('Moon God - Q To Lock', 'Loading..', 5)
 NotifyLib.prompt('Sets Loaded', 'Son Them', 5)
 NotifyLib.prompt('Moon God', 'its abt time ;)', 5)
