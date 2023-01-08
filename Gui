@@ -175,6 +175,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "SmoothLock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/SmoothLock.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "PingSpoofer",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/PingSpoofer.lua", true))()
