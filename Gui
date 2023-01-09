@@ -25,6 +25,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Universal Aimlock Fov",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/UniversalAimlockFov.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Autoclicker",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/auto%20clicker.lua", true))()
