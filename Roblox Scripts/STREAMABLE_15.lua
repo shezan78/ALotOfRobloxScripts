@@ -1,4 +1,4 @@
-    local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/Vmg45Rnu", true))()
+    local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/protectedlock.lua", true))()
                             Aiming.TeamCheck(false)
                              
                             
