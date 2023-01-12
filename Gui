@@ -271,3 +271,10 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE12.lua", true))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "Streamable 8",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_15.lua", true))()
+  	end    
+})
