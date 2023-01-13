@@ -115,7 +115,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "Scripts"
+	Name = "Da hood"
 })
 
 Tab:AddButton({
