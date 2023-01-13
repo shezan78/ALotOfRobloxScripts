@@ -22,7 +22,7 @@ a:Button(
     "Credits",
     function()
         local _ = game:GetService("StarterGui")
-        _:SetCore("SendNotification", {Title = "SecretSupply", Text = "nyc.xz#0001", Duration = 15})
+        _:SetCore("SendNotification", {Title = "SecretSupply", Text = "shezan#0001", Duration = 15})
     end
 )
 a:Button(
@@ -31,7 +31,7 @@ a:Button(
         local _ = game:GetService("StarterGui")
         _:SetCore("SendNotification", {Title = "Discord", Text = "Copied to your clipboard", Duration = 15})
         wait(0.5)
-        setclipboard("discord.gg/ynx | discord.gg/C5YZx27GvG")
+        setclipboard("discord.gg/Pck9FkQKty | discord.gg/Pck9FkQKty")
     end
 )
 h:Button(
