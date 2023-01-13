@@ -1,6 +1,3 @@
--- script bought by kal (private request)
-
-
 --[[
 
 KKKKKKKKK    KKKKKKK               AAA               LLLLLLLLLLL             
