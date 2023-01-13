@@ -279,3 +279,27 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_15.lua", true))()
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Avatar",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Avatar Stuff"
+})
+
+Tab:AddButton({
+	Name = "Korblox",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/Korblox.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Headless",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/Headless.lua", true))()
+  	end    
+})
