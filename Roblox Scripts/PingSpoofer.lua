@@ -7,7 +7,7 @@ for I, Child in next, PerformanceStats:GetChildren() do
     end;
 end;
 
-local text = "0.00 ms";
+local text = "33.57 ms";
 PingLabel:GetPropertyChangedSignal("Text"):Connect(function()
     PingLabel.Text = text;
 end);
