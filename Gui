@@ -296,3 +296,10 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/Headless.lua", true))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "Hat GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Hat%20Gui.lua", true))()
+  	end    
+})
