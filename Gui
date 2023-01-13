@@ -291,13 +291,6 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Korblox",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/Korblox.lua", true))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Headless",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/Headless.lua", true))()
