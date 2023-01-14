@@ -21,7 +21,7 @@ local plr = game.Players.LocalPlayer
 local uis = game:GetService("UserInputService")
 local rs = game:GetService("RunService")
  
-local lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shezan78/Orion-Ui-Lib/main/OrionMainSource')))()
 local window = lib:MakeWindow({Name = "Shezan's Hoopz UI"})
 local main = window:MakeTab({Name = "Main"})
  
