@@ -223,6 +223,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Swagmode GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Swagmode.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Resolver 1",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Resolver1.lua", true))()
