@@ -294,6 +294,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Streamable 9 Res = /e cool",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_4.lua", true))()
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Avatar",
 	Icon = "rbxassetid://4483345998",
