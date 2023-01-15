@@ -131,6 +131,13 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+	Name = "Azure.lua",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Azure.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "100+ Ping DH script",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/100%2B%20ping%20da%20hood%20aimlock.lua", true))()
