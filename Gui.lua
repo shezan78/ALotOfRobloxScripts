@@ -138,6 +138,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Azure.Rewrite",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/AzureRewrite.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "100+ Ping DH script",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/100%2B%20ping%20da%20hood%20aimlock.lua", true))()
