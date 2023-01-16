@@ -258,28 +258,28 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Streamable 1",
+	Name = "Streamable 1 - Working",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_1.lua", true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Streamable 2",
+	Name = "Streamable 2 - Broken",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_2.lua", true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Streamable 3",
+	Name = "Streamable 3 - Broken",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/GuizzyisbackV2LOL/LegitVersionLua/main/LuaRoblox", true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Streamable 4",
+	Name = "Streamable 4 - Broken",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_8.lua", true))()
   	end    
