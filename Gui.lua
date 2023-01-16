@@ -286,35 +286,35 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Streamable 5",
+	Name = "Streamable 5 - Working",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_9%20very%20blatant%20be%20careful.lua", true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Streamable 6",
+	Name = "Streamable 6 - Broken",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE12.lua", true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Streamable 7",
+	Name = "Streamable 7 - Broken",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE12.lua", true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Streamable 8",
+	Name = "Streamable 8 - Broken",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_15.lua", true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Streamable 9 Res = /e cool",
+	Name = "Streamable 9 - Broken",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_4.lua", true))()
   	end    
