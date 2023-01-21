@@ -387,4 +387,11 @@ Tab:AddButton({
   	end    
 })
 
+OrionLib:MakeNotification({
+	Name = "Checking Whitelist",
+	Content = "Whitelisted",
+	Image = "rbxassetid://4483345998",
+	Time = 15
+})
+
 OrionLib:Init()
