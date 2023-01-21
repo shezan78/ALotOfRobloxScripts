@@ -131,6 +131,13 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+	Name = "Da Hood Basic Locking GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/GUI%20dont%20use%2C%20use%20the%20loadstring%20attached%20to%20readme.lua"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Azure.lua",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Azure.lua", true))()
