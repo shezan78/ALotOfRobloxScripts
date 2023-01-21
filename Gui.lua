@@ -12,6 +12,25 @@
 ]]
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shezan78/Orion-Ui-Lib/main/OrionMainSource')))()
 local Window = OrionLib:MakeWindow({Name = "Shezans GUI", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Color Picker",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Color picker"
+})
+
+Tab:AddColorpicker({
+	Name = "Colorpicker",
+	Default = Color3.fromRGB(0, 0, 0),
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
 local Tab = Window:MakeTab({
 	Name = "Scripts",
 	Icon = "rbxassetid://4483345998",
