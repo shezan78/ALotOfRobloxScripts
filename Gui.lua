@@ -140,6 +140,24 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "Fe Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({
+	Name = "Fe Run",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/GUI%20dont%20use%2C%20use%20the%20loadstring%20attached%20to%20readme.lua"))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
 	Name = "Da Hood",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
