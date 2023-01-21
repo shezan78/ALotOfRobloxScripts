@@ -351,4 +351,21 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Destroy Interface",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Destroy UI Interface"
+})
+
+Tab:AddButton({
+	Name = "Destroy UI Interface",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
+
 OrionLib:Init()
