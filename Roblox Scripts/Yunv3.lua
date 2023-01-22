@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Discord-Token-Generator/main/adssadad"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Yunv3%20Connection.lua"))()
 getgenv().Key = Enum.KeyCode.Q
 getgenv().Prediction = 1.36
 getgenv().AirshotFunccc = false
