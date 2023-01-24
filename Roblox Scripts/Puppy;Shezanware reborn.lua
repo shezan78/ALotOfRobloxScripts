@@ -146,7 +146,7 @@ local PuppyModule = {
     Instance = {}
 }
 
-local Window = libary:new({name = "Puppyware Reborn", accent = Color3.fromRGB(244, 95, 115), textsize = 13})
+local Window = libary:new({name = "Shezanware Reborn", accent = Color3.fromRGB(244, 95, 115), textsize = 13})
 local AimingTab = Window:page({name = "Legit"})
 local RageTab = Window:page({name = "Rage"})
 local VisualTab = Window:page({name = "Visauls"})
