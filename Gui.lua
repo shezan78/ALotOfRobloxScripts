@@ -203,6 +203,20 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Pink dot lock 1 - Q/C To toggle",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Pink%20Dot%20Lock%202.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pink Dot Lock 2 - Q to toggle",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Pink%20Dot%20lock%201.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "ValientSilentAim",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/DHvalientsilentaim.lua", true))()
