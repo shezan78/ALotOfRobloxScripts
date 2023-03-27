@@ -42,6 +42,13 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+	Name = "Fps game lock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Fpsgame%20aimbot.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Universal Silent aim",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/UniversalSilentAim.lua", true))()
