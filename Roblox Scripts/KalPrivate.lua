@@ -207,7 +207,7 @@ $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$ |\$$$$$$$\       $$$$$$$  |\$$$$$$$ |      $$$$$
                 if Settings.Kalslock.notifaction == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "  Kal >3";
+                    Title = "Private ;";
                     Text = "  Unlocked",
                     Icon = "http://www.roblox.com/asset/?id=5314810647",
                     Duration = 3
@@ -219,7 +219,7 @@ $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$ |\$$$$$$$\       $$$$$$$  |\$$$$$$$ |      $$$$$
                 if Settings.Kalslock.notifaction == true then
 
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "  Kal >3";
+                        Title = "Private ;";
                         Text = "  Target: "..tostring(Plr.Character.Humanoid.DisplayName),
                         Icon = "http://www.roblox.com/asset/?id=8709610734",
                         Duration = 3
