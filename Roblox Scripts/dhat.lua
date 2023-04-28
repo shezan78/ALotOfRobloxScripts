@@ -124,7 +124,7 @@ local notifications = notificationLibrary.new({
  
 --
  
-local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
+local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/AkaliNotif.lua"))()
 local Notify = NotifyLibrary.Notify
  
  
