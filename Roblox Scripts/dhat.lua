@@ -109,7 +109,7 @@ getgenv().dot = {
  
 --------------------------------------------
  
-local notificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/xaxas-notification/src.lua"))();
+local notificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/scripts-for-roblox/main/notification-src.lua"))();
 local notifications = notificationLibrary.new({            
     NotificationLifetime = 1.5, 
     NotificationPosition = "Middle",
