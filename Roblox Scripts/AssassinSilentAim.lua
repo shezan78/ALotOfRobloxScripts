@@ -1,4 +1,4 @@
-local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Kavo-UI-Lib-Remake/main/Kavo%20Mobile%20UI.lua"))()
 local window = kavoUi.CreateLib("Muderer Vs Sheriff","Ocean")
 
 ---Tabs
