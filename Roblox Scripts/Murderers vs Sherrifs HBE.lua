@@ -6,8 +6,8 @@ local window = kavoUi.CreateLib("Muderer Vs Sheriff","Ocean")
 local Tab1 = window:NewTab("Main")
 local Tab1Section = Tab1:NewSection("Main")
 local Tab2 = window:NewTab("Credits")
-local Tab2Section = Tab2:NewSection("Made By JN HH Gaming")
-local Tab2Section = Tab2:NewSection("Subscribe To JN HH Gaming On Youtube")
+local Tab2Section = Tab2:NewSection("Stay safe Son.")
+local Tab2Section = Tab2:NewSection("Don't hack.")
 
 ---Buttons
 
